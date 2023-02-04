@@ -1,0 +1,1 @@
+Commit 3 for tournament consomation API

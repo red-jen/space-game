@@ -27,9 +27,7 @@ class Tournament extends Model
         'end_date' => 'date',
     ];
 
-    /**
-     * The user who created this tournament.
-     */
+ 
     public function creator()
     {
         return $this->belongsTo(User::class, 'created_by');

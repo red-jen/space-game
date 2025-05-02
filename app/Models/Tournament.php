@@ -21,11 +21,7 @@ class Tournament extends Model
         'created_by',
     ];
 
-    /**
-     * The attributes that should be cast.
-     *
-     * @var array<string, string>
-     */
+   
     protected $casts = [
         'start_date' => 'date',
         'end_date' => 'date',
